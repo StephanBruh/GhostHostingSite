@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+.promo {
+    margin-top: 50px;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+.buynow {
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+.product {
+    margin-top: 50px;
+}
+
+.specs {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
